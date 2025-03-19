@@ -1,0 +1,59 @@
+/* ------------------------------------------------------------------ */
+/* Custom componet ant design vue */
+/* ------------------------------------------------------------------ */
+
+.no-border-ant-button {
+  border: none !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+
+  & .ant-wave {
+    display: none;
+  }
+}
+
+.no-padding-ant-modal {
+  & .ant-modal-content {
+    padding: 0 !important;
+  }
+}
+
+.ant-upload-select-picture-card i {
+  font-size: 32px;
+  color: #999;
+}
+
+.ant-upload-select-picture-card .ant-upload-text {
+  margin-top: 8px;
+  color: #666;
+}
+
+.center-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.all-h-100 {
+  height: 100%;
+
+  & * {
+    height: 100%;
+  }
+}
+
+.ant-tooltip {
+  &-arrow {
+    &::after {
+      background-color: #87d068 !important;
+    }
+    &::before {
+      background-color: #87d068 !important;
+    }
+  }
+  &-inner {
+    background-color: #87d068 !important;
+  }
+}

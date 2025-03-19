@@ -1,0 +1,16 @@
+<layer>
+  <name>kho_luu_tru_phan_bon_va_vat_tu_nong_nghiep</name>
+  <id>LayerInfoImpl-75e1401e:1946ce9c7b5:-7ff6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2bc7537e:1946cd5cd78:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-75e1401e:1946ce9c7b5:-7ff7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-16 03:13:08.901 UTC</dateCreated>
+</layer>

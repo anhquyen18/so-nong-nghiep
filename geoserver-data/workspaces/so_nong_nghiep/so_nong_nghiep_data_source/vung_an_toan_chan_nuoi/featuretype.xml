@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--690cf5cd:1954a326044:-7fde</id>
+  <name>vung_an_toan_chan_nuoi</name>
+  <nativeName>vung_an_toan_chan_nuoi</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-75e1401e:1946ce9c7b5:-7ffb</id>
+  </namespace>
+  <title>vung_an_toan_chan_nuoi</title>
+  <keywords>
+    <string>features</string>
+    <string>vung_an_toan_chan_nuoi</string>
+  </keywords>
+  <srs>EPSG:5899</srs>
+  <nativeBoundingBox>
+    <minx>539029.5625</minx>
+    <maxx>544320.9375</maxx>
+    <miny>1767087.75</miny>
+    <maxy>1778511.125</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>108.1164555123801</minx>
+    <maxx>108.16610399151976</maxx>
+    <miny>15.977085194559999</miny>
+    <maxy>16.080413868451835</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-75e1401e:1946ce9c7b5:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vung_bao_ve_thuc_vat</name>
+  <id>LayerInfoImpl-75e1401e:1946ce9c7b5:-7ff0</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2bc7537e:1946cd5cd78:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-75e1401e:1946ce9c7b5:-7ff1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-16 03:14:02.452 UTC</dateCreated>
+</layer>

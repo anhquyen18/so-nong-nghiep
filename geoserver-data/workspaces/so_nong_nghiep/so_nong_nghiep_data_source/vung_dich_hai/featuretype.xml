@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-75e1401e:1946ce9c7b5:-7fef</id>
+  <name>vung_dich_hai</name>
+  <nativeName>vung_dich_hai</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-75e1401e:1946ce9c7b5:-7ffb</id>
+  </namespace>
+  <title>vung_dich_hai</title>
+  <keywords>
+    <string>features</string>
+    <string>vung_dich_hai</string>
+  </keywords>
+  <srs>EPSG:5899</srs>
+  <nativeBoundingBox>
+    <minx>534218.0</minx>
+    <maxx>538555.0</maxx>
+    <miny>1771358.125</miny>
+    <maxy>1776973.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>108.0715651301805</minx>
+    <maxx>108.11218304990322</maxx>
+    <miny>16.015776238323493</miny>
+    <maxy>16.066585398926296</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-75e1401e:1946ce9c7b5:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

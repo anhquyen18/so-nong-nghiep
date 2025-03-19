@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--690cf5cd:1954a326044:-7fe2</id>
+  <name>o_dich_chan_nuoi</name>
+  <nativeName>o_dich_chan_nuoi</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-75e1401e:1946ce9c7b5:-7ffb</id>
+  </namespace>
+  <title>o_dich_chan_nuoi</title>
+  <keywords>
+    <string>o_dich_chan_nuoi</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:5899</srs>
+  <nativeBoundingBox>
+    <minx>534491.625</minx>
+    <maxx>538859.75</maxx>
+    <miny>1775560.375</miny>
+    <maxy>1779379.875</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>108.07418334391254</minx>
+    <maxx>108.11507113896306</maxx>
+    <miny>16.053749256415312</miny>
+    <maxy>16.08833368455379</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-75e1401e:1946ce9c7b5:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

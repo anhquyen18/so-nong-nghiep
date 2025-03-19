@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-75e1401e:1946ce9c7b5:-7ff5</id>
+  <name>khu_vuc_trong_trot</name>
+  <nativeName>khu_vuc_trong_trot</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-75e1401e:1946ce9c7b5:-7ffb</id>
+  </namespace>
+  <title>khu_vuc_trong_trot</title>
+  <keywords>
+    <string>features</string>
+    <string>khu_vuc_trong_trot</string>
+  </keywords>
+  <srs>EPSG:5899</srs>
+  <nativeBoundingBox>
+    <minx>539369.75</minx>
+    <maxx>546379.6875</maxx>
+    <miny>1775004.375</miny>
+    <maxy>1777837.25</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>108.11976538468514</minx>
+    <maxx>108.18533433660882</maxx>
+    <miny>16.04859319674906</miny>
+    <maxy>16.07431827657434</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-75e1401e:1946ce9c7b5:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

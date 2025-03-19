@@ -1,0 +1,16 @@
+<layer>
+  <name>doanh_nghiep_lam_thuy_san</name>
+  <id>LayerInfoImpl-4e4cfc75:1955eb8e5e5:-7fd5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2bc7537e:1946cd5cd78:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4e4cfc75:1955eb8e5e5:-7fd6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-03-04 06:51:03.327 UTC</dateCreated>
+</layer>

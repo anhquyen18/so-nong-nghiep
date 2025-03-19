@@ -1,0 +1,16 @@
+<layer>
+  <name>vung_dich_hai</name>
+  <id>LayerInfoImpl-75e1401e:1946ce9c7b5:-7fee</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2bc7537e:1946cd5cd78:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-75e1401e:1946ce9c7b5:-7fef</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-01-16 03:14:27.440 UTC</dateCreated>
+</layer>

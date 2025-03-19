@@ -1,0 +1,16 @@
+<layer>
+  <name>vung_thuy_san</name>
+  <id>LayerInfoImpl-4e4cfc75:1955eb8e5e5:-7fd7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2bc7537e:1946cd5cd78:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-4e4cfc75:1955eb8e5e5:-7fd8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-03-04 06:50:44.707 UTC</dateCreated>
+</layer>

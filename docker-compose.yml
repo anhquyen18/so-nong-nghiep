@@ -1,0 +1,99 @@
+networks:
+  irrigation-system:
+    name: irrigation-system
+    driver: bridge
+
+services:
+  geoserver:
+    # build:
+    # context: ./Docker/geoserver
+    # dockerfile: geoserver.dockerfile
+    image: kartoza/geoserver:2.18.2
+    volumes:
+      - ./geoserver-data:/opt/geoserver/data_dir
+      # - ./data/certbot/conf:/etc/letsencrypt
+      # - ./data/certbot/www:/var/www/certbot
+    # ports:
+    #   - 8080:8080
+    environment:
+      GEOSERVER_DATA_DIR: /opt/geoserver/data_dir
+      GEOSERVER_ADMIN_USER: admin
+      GEOSERVER_ADMIN_PASSWORD: geoserver
+      # HTTP_PROXY_NAME: aqtran.name.vn
+      # HTTP_SCHEME: https
+    networks:
+      - irrigation-system
+
+  database-postgres:
+    build:
+      context: ./Docker/postgres
+      dockerfile: postgres.dockerfile
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    ports:
+      - 5431:5432
+    environment:
+      POSTGRES_PASSWORD: sonongnghiep@18
+      POSTGRES_USER: sonongnghiep
+      POSTGRES_DB: so_nong_nghiep
+      PGDATA: /var/lib/postgresql/data
+    networks:
+      - irrigation-system
+
+  frontend:
+    stdin_open: true
+    build:
+      context: ./fe
+      dockerfile: Dockerfile
+    container_name: frontend
+    networks:
+      - irrigation-system
+
+  backend:
+    build:
+      context: ./be
+      dockerfile: Dockerfile
+    container_name: backend
+    volumes:
+      - ./be:/var/www/html
+    environment:
+      SERVICE_NAME: backend
+      SERVICE_TAGS: dev
+    networks:
+      - irrigation-system
+
+  web-server:
+    build:
+      context: ./Docker/nginx
+      dockerfile: nginx.dockerfile
+    # volumes:
+    #   - ./data/certbot/conf:/etc/letsencrypt
+    #   - ./data/certbot/www:/var/www/certbot
+    container_name: web-server
+    restart: always
+    depends_on:
+      - backend
+      - frontend
+    ports:
+      - 80:80
+    networks:
+      - irrigation-system
+
+  # composer:
+  #   image: composer:latest
+  #   container_name: composer
+  #   volumes:
+  #     - ./be:/var/www/html
+  #   working_dir: /var/www/html
+  #   networks:
+  #     - irrigation-system
+
+  # artisan:
+  #   build:
+  #     context: ./
+  #     dockerfile: Docker/php/php.dockerfile
+  #   container_name: artisan
+  #   working_dir: /var/www/html
+  #   entrypoint: ["php", "artisan"]
+  #   networks:
+  #     - irrigation-system

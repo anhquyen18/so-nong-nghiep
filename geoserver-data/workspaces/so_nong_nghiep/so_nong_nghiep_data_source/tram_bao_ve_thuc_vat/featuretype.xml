@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-75e1401e:1946ce9c7b5:-7ff3</id>
+  <name>tram_bao_ve_thuc_vat</name>
+  <nativeName>tram_bao_ve_thuc_vat</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-75e1401e:1946ce9c7b5:-7ffb</id>
+  </namespace>
+  <title>tram_bao_ve_thuc_vat</title>
+  <keywords>
+    <string>features</string>
+    <string>tram_bao_ve_thuc_vat</string>
+  </keywords>
+  <srs>EPSG:5899</srs>
+  <nativeBoundingBox>
+    <minx>538125.5</minx>
+    <maxx>541457.4375</maxx>
+    <miny>1773485.0</miny>
+    <maxy>1776624.875</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>108.10811232083529</minx>
+    <maxx>108.13930496215175</maxx>
+    <miny>16.034950385594232</miny>
+    <maxy>16.06338124332483</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-75e1401e:1946ce9c7b5:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

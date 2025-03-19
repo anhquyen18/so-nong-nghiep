@@ -1,0 +1,124 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "EPSG:5899" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [530000, 1770000],
+            [532500, 1769500],
+            [535000, 1770200],
+            [531800, 1770700],
+            [530000, 1770000]
+          ]
+        ]
+      },
+      "properties": {
+        "ten_vung": "Vùng A",
+        "dien_tich": "2.5 ha",
+        "loai_dich_hai": "Sâu keo mùa thu",
+        "tinh_trang": "Nghiêm trọng",
+        "bien_phap_phong_tru": "Sử dụng thuốc sinh học",
+        "tinh_trang_hien_tai": "Đang kiểm soát"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [540500, 1775000],
+            [543000, 1774800],
+            [545200, 1775300],
+            [541700, 1775500],
+            [540500, 1775000]
+          ]
+        ]
+      },
+      "properties": {
+        "ten_vung": "Vùng B",
+        "dien_tich": "3.0 ha",
+        "loai_dich_hai": "Rầy nâu",
+        "tinh_trang": "Phòng ngừa",
+        "bien_phap_phong_tru": "Sử dụng bẫy sinh học",
+        "tinh_trang_hien_tai": "Ổn định"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [550000, 1780000],
+            [552500, 1779800],
+            [555000, 1780300],
+            [551800, 1780700],
+            [550000, 1780000]
+          ]
+        ]
+      },
+      "properties": {
+        "ten_vung": "Vùng C",
+        "dien_tich": "4.0 ha",
+        "loai_dich_hai": "Sâu rầy",
+        "tinh_trang": "Đang kiểm soát",
+        "bien_phap_phong_tru": "Sử dụng thuốc hóa học",
+        "tinh_trang_hien_tai": "Kiểm soát hiệu quả"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [560000, 1785000],
+            [562500, 1784800],
+            [565000, 1785200],
+            [561800, 1785600],
+            [560000, 1785000]
+          ]
+        ]
+      },
+      "properties": {
+        "ten_vung": "Vùng D",
+        "dien_tich": "5.0 ha",
+        "loai_dich_hai": "Côn trùng hại cây",
+        "tinh_trang": "Cảnh báo",
+        "bien_phap_phong_tru": "Sử dụng thuốc hóa học và sinh học",
+        "tinh_trang_hien_tai": "Đang kiểm soát"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [570000, 1790000],
+            [572500, 1789800],
+            [575000, 1790200],
+            [571800, 1790600],
+            [570000, 1790000]
+          ]
+        ]
+      },
+      "properties": {
+        "ten_vung": "Vùng E",
+        "dien_tich": "6.0 ha",
+        "loai_dich_hai": "Bệnh nấm hại cây trồng",
+        "tinh_trang": "Phòng ngừa",
+        "bien_phap_phong_tru": "Sử dụng biện pháp cơ học và thuốc sinh học",
+        "tinh_trang_hien_tai": "Ổn định"
+      }
+    }
+  ]
+}

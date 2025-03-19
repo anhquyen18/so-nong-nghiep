@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./",        // Đặt thư mục gốc
+      "paths": {
+        "@/*": ["src/*"]      // Alias cho các đường dẫn
+      }
+    },
+    "exclude": ["node_modules", "dist"] // Loại bỏ các thư mục không cần thiết
+  }
+  

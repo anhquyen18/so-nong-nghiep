@@ -1,0 +1,16 @@
+<layer>
+  <name>tuyen_duong_van_chuyen_dong_vat</name>
+  <id>LayerInfoImpl--690cf5cd:1954a326044:-7fdf</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-2bc7537e:1946cd5cd78:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--690cf5cd:1954a326044:-7fe0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-02-28 07:13:09.331 UTC</dateCreated>
+</layer>

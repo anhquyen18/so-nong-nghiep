@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-4e4cfc75:1955eb8e5e5:-7fd8</id>
+  <name>vung_thuy_san</name>
+  <nativeName>vung_thuy_san</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-75e1401e:1946ce9c7b5:-7ffb</id>
+  </namespace>
+  <title>vung_thuy_san</title>
+  <keywords>
+    <string>features</string>
+    <string>vung_thuy_san</string>
+  </keywords>
+  <srs>EPSG:5899</srs>
+  <nativeBoundingBox>
+    <minx>540191.25</minx>
+    <maxx>550447.375</maxx>
+    <miny>1778016.0</miny>
+    <maxy>1784744.625</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>108.1274942775037</minx>
+    <maxx>108.22350262914173</maxx>
+    <miny>16.075729731142403</miny>
+    <maxy>16.136729779967236</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-75e1401e:1946ce9c7b5:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

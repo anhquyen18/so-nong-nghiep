@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--690cf5cd:1954a326044:-7fe0</id>
+  <name>tuyen_duong_van_chuyen_dong_vat</name>
+  <nativeName>tuyen_duong_van_chuyen_dong_vat</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-75e1401e:1946ce9c7b5:-7ffb</id>
+  </namespace>
+  <title>tuyen_duong_van_chuyen_dong_vat</title>
+  <keywords>
+    <string>features</string>
+    <string>tuyen_duong_van_chuyen_dong_vat</string>
+  </keywords>
+  <srs>EPSG:5899</srs>
+  <nativeBoundingBox>
+    <minx>532134.5</minx>
+    <maxx>547381.4375</maxx>
+    <miny>1759240.0</miny>
+    <maxy>1780719.125</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>108.0519321052028</minx>
+    <maxx>108.19475555801448</maxx>
+    <miny>15.906104067071837</miny>
+    <maxy>16.100469441561344</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-75e1401e:1946ce9c7b5:-7ffa</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

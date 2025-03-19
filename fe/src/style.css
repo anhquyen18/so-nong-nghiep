@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+:root {
+  --dark-theme-color: #001529;
+  --dark1-theme-color: #012241;
+  --error-color: #ff4d4f;
+  --secondary-background-color: #f3f3f3;
+  --secondary-background-color2: #252525;
+  --primary-color: #3b9e05;
+}
